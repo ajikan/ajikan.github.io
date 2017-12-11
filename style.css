@@ -1,13 +1,74 @@
+
 body{
-    background-image: url("680345.jpg");
+    /*
+    background-image: url("986644.jpg");
     background-size: cover;
+    */
+	      overflow: auto;
+	        position: relative;
+   /* 
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background-color: hsla(0,0%,80%,0.70);
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    */
+}
+body:before{
+    content: "";
+      position: fixed;
+      	top: -9%;
+        left: -2%;
+	  right: 0;
+	    z-index: -1;
+
+	      display: block;
+	        background-image: url('1235703.jpg');
+		  background-size:cover;
+		    width: 110%;
+		      height: 110%;
+
+		        -webkit-filter: blur(3px);
+			  -moz-filter: blur(3px);
+			    -o-filter: blur(3px);
+			      -ms-filter: blur(3px);
+			        filter: blur(3px);
 }
 
 h1{
-    color: rgb(212, 151, 100)
+    text-align: center;
+    color: White;
+    font-size: 50px;
+    font-family: "Courier New", Courier, monospace;
+    
 }
 
 p{
-    color: rgb(212, 151, 100)
+    text-align: center;
+    color: White;
+    font-size: 20px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+a{
+    color: hsl(0, 100%, 75%);
+    padding-left: 10px;
+    font-size: 30px;
+}
+.content{
+    margin-top: -90px;
+    text-align: center;
+}
+img{
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    top: -50px;
+
 }
 
