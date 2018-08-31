@@ -1,2 +1,2 @@
 # ajikan.github.io
-# My personal website.
+My personal website.
