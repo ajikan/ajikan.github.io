@@ -44,10 +44,9 @@ body:before{
 }
 
 .nav {
-    font-size: 14px;
+    font-size: 20px;
     text-align: right;
-    font-weight: 400;
-    margin-bottom: 20px;
+    font-weight: bold;
     color: hsl(0, 100%, 75%);
     font-family: "Courier New", Courier, monospace;
 }
