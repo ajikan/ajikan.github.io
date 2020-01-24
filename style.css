@@ -49,10 +49,13 @@ ul{
 
 li{
     display: inline;
+}
+li a{
     font-size: 20px;
     font-weight: bold;
     color: hsl(0, 100%, 75%);
     font-family: "Courier New", Courier, monospace;
+
 }
 
 li.l1:hover{
