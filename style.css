@@ -1,5 +1,5 @@
 html{
-    outline: white solid 30px;
+    border: white solid 30px;
 }
 
 body{
@@ -44,15 +44,15 @@ body:before{
 }
 
 .nav {
-    font-family: Maven Pro,sans-serif;
     font-size: 14px;
     text-align: right;
     font-weight: 400;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
     color: hsl(0, 100%, 75%);
+    font-family: "Courier New", Courier, monospace;
 }
 
-.nav a:hover{
+a.nav:hover{
     text-decoration: underline;
 }
 
