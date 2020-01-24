@@ -1,11 +1,14 @@
+html{
+    outline: white solid 30px;
+}
 
 body{
     /*
     background-image: url("986644.jpg");
     background-size: cover;
     */
-	      overflow: auto;
-	        position: relative;
+    overflow: auto;
+    position: relative;
    /* 
     display: block;
     position: absolute;
@@ -21,23 +24,36 @@ body{
 }
 body:before{
     content: "";
-      position: fixed;
-      	top: -9%;
-        left: -2%;
-	  right: 0;
-	    z-index: -1;
+    position: fixed;
+    top: -9%;
+    left: -2%;
+    right: 0;
+    z-index: -1;
 
-	      display: block;
-	        background-image: url('1235703.jpg');
-		  background-size:cover;
-		    width: 110%;
-		      height: 110%;
+    display: block;
+    background-image: url('1235703.jpg');
+    background-size:cover;
+    width: 110%;
+    height: 110%;
 
-		        -webkit-filter: blur(3px);
-			  -moz-filter: blur(3px);
-			    -o-filter: blur(3px);
-			      -ms-filter: blur(3px);
-			        filter: blur(3px);
+    -webkit-filter: blur(3px);
+	-moz-filter: blur(3px);
+	-o-filter: blur(3px);
+	-ms-filter: blur(3px);
+	filter: blur(3px);
+}
+
+.nav {
+    font-family: Maven Pro,sans-serif;
+    font-size: 14px;
+    text-align: right;
+    font-weight: 400;
+    margin-bottom: 50px;
+    color: hsl(0, 100%, 75%);
+}
+
+.nav a:hover{
+    text-decoration: underline;
 }
 
 h1{
@@ -55,7 +71,7 @@ p{
     font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
 
-a{
+.content a{
     color: hsl(0, 100%, 75%);
     padding-left: 10px;
     font-size: 30px;
