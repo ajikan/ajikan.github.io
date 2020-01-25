@@ -45,21 +45,24 @@ ul{
     margin: 0;
     padding: 0;
     overflow: hidden;
+    text-align: right;
 }
 
 li{
-    float: right;
+    display: inline;
+    position: relative;
 }
 li a{
+    /*
     font-size: 20px;
     font-weight: bold;
+    */
+    margin: 0;
+    font: bold 14px/1.4 'Open Sans', arial, sans-serif;
     text-transform: uppercase;
     text-decoration: none;
     letter-spacing: 0.15em;
-
-
     color: hsl(0, 100%, 75%);
-    font-family: 'Open Sans', arial, sans-serif;
     display: inline-block;
     padding: 8px;
     position: relative;
