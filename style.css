@@ -91,7 +91,7 @@ li a:hover:after {
 #left, #right {
     top: 0; 
     bottom: 0;
-	width: 10px;
+	width: 6px;
 }
 #left { 
     left: 0; 
@@ -103,7 +103,7 @@ li a:hover:after {
 #top, #bottom {
     left: 0; 
     right: 0;
-	height: 10px;
+	height: 6px;
 }
 #top { 
     top: 0;
