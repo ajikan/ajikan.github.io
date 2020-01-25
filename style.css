@@ -85,13 +85,13 @@ li a:hover:after {
 }
 
 #top, #bottom, #left, #right {
-	background: #a5ebff;
+	background: hsl(0, 100%, 75%);
 	position: fixed;
 }
 #left, #right {
     top: 0; 
     bottom: 0;
-	width: 15px;
+	width: 10px;
 }
 #left { 
     left: 0; 
@@ -103,7 +103,7 @@ li a:hover:after {
 #top, #bottom {
     left: 0; 
     right: 0;
-	height: 15px;
+	height: 10px;
 }
 #top { 
     top: 0;
