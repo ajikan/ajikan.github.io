@@ -40,7 +40,7 @@ body:before{
 	filter: blur(3px);
 }
 
-ul{
+.inline{
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -128,24 +128,24 @@ h1{
     display: inline;
 }
 
-.list-inline > li:not(:last-child)::after {
+.list-middot > li:not(:last-child)::after {
     /* https://en.wikipedia.org/wiki/Bullet_(typography) */
-    content: "•";
+    content: "\00b7";
     color: White;
 }
 li .p1{
     color: White;
-    font-size: 40px;
-    font-family: 'Ubuntu', sans-serif;
+    font-size: 30px;
+    font-family: 'Arvo', Georgia, Times, serif;
 }
 li .p2{
     color: White;
-    font-size: 40px;
+    font-size: 30px;
     font-family: 'Allan', Helvetica, Arial, sans-serif;
 }
 li .p3{
     color: White;
-    font-size: 40px;
+    font-size: 30px;
     font-family: 'Dancing Script', Georgia, Times, serif;
 }
 
