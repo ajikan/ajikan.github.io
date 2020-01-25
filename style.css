@@ -87,20 +87,30 @@ li a:hover:after {
 #top, #bottom, #left, #right {
 	background: #a5ebff;
 	position: fixed;
-	}
-	#left, #right {
-		top: 0; bottom: 0;
-		width: 15px;
-		}
-		#left { left: 0; }
-		#right { right: 0; }
+}
+#left, #right {
+    top: 0; 
+    bottom: 0;
+	width: 15px;
+}
+#left { 
+    left: 0; 
+}
+#right { 
+    right: 0; 
+}
 		
-	#top, #bottom {
-		left: 0; right: 0;
-		height: 15px;
-		}
-		#top { top: 0; }
-        #bottom { bottom: 0; }
+#top, #bottom {
+    left: 0; 
+    right: 0;
+	height: 15px;
+}
+#top { 
+    top: 0;
+}
+#bottom { 
+    bottom: 0; 
+}
 
 h1{
     text-align: center;
