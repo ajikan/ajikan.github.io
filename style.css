@@ -131,20 +131,21 @@ h1{
 .list-inline > li:not(:last-child)::after {
     /* https://en.wikipedia.org/wiki/Bullet_(typography) */
     content: "•";
+    color: White;
 }
 li .p1{
     color: White;
-    font-size: 20px;
-    font-family: 'Ubuntu', Helvetica, Arial, sans-serif;
+    font-size: 40px;
+    font-family: 'Ubuntu', sans-serif;
 }
 li .p2{
     color: White;
-    font-size: 20px;
+    font-size: 40px;
     font-family: 'Allan', Helvetica, Arial, sans-serif;
 }
 li .p3{
     color: White;
-    font-size: 20px;
+    font-size: 40px;
     font-family: 'Dancing Script', Georgia, Times, serif;
 }
 
