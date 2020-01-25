@@ -118,12 +118,34 @@ h1{
     font-size: 50px;
     font-family: "Courier New", Courier, monospace;    
 }
-
-p{
+.list-inline {
+    list-style: none;
+    padding: 0;
     text-align: center;
+}
+
+.list-inline > li {
+    display: inline;
+}
+
+.list-inline > li:not(:last-child)::after {
+    /* https://en.wikipedia.org/wiki/Bullet_(typography) */
+    content: "•";
+}
+li .p1{
     color: White;
     font-size: 20px;
-    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-family: 'Ubuntu', Helvetica, Arial, sans-serif;
+}
+li .p2{
+    color: White;
+    font-size: 20px;
+    font-family: 'Allan', Helvetica, Arial, sans-serif;
+}
+li .p3{
+    color: White;
+    font-size: 20px;
+    font-family: 'Dancing Script', Georgia, Times, serif;
 }
 
 .content a{
