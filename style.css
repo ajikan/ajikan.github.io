@@ -130,7 +130,7 @@ h1{
 
 .list-middot > li:not(:last-child)::after {
     /* https://en.wikipedia.org/wiki/Bullet_(typography) */
-    content: "\00b7";
+    content: "•";
     color: White;
 }
 li .p1{
